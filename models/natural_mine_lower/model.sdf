@@ -1,0 +1,420 @@
+<sdf version="1.6">
+  <model name="natural_mine_lower">
+    <static>true</static>
+    <link name="body">
+      <visual name="rock_walls">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/rock_walls.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_walls">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/rock_walls.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="floor">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/floor.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="floor">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/floor.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="post_0_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_0_-1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="post_0_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_0_-1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="foot_0_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_0_-1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foot_0_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_0_-1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="post_0_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_0_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="post_0_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_0_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="foot_0_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_0_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foot_0_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_0_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="beam_0">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/beam_0.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="beam_0">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/beam_0.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="light_0">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/light_0.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="post_1_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_1_-1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="post_1_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_1_-1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="foot_1_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_1_-1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foot_1_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_1_-1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="post_1_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_1_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="post_1_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_1_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="foot_1_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_1_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foot_1_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_1_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="beam_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/beam_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="beam_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/beam_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="light_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/light_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="post_2_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_2_-1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="post_2_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_2_-1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="foot_2_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_2_-1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foot_2_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_2_-1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="post_2_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_2_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="post_2_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_2_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="foot_2_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_2_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foot_2_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_2_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="beam_2">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/beam_2.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="beam_2">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/beam_2.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="light_2">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/light_2.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="post_3_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_3_-1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="post_3_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_3_-1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="foot_3_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_3_-1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foot_3_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_3_-1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="post_3_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_3_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="post_3_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_3_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="foot_3_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_3_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foot_3_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_3_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="beam_3">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/beam_3.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="beam_3">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/beam_3.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="light_3">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/light_3.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="post_4_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_4_-1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="post_4_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_4_-1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="foot_4_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_4_-1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foot_4_-1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_4_-1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="post_4_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_4_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="post_4_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/post_4_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="foot_4_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_4_1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="foot_4_1">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/foot_4_1.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="beam_4">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/beam_4.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="beam_4">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/beam_4.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="light_4">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_lower/meshes/light_4.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

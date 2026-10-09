@@ -1,0 +1,175 @@
+<sdf version="1.6">
+  <model name="natural_mine_obstacles">
+    <static>true</static>
+    <link name="body">
+      <visual name="rock_room_north">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_room_north.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_room_north">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_room_north.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_room_south">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_room_south.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_room_south">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_room_south.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_loop">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_loop.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_loop">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_loop.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_main_01">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_01.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_main_01">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_01.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_main_02">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_02.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_main_02">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_02.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_main_03">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_03.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_main_03">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_03.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_main_04">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_04.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_main_04">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_04.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_main_05">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_05.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_main_05">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_05.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_main_06">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_06.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_main_06">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_main_06.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_branch_south">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_branch_south.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_branch_south">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_branch_south.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_branch_east">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_branch_east.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_branch_east">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_branch_east.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="rock_loop_extra">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_loop_extra.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="rock_loop_extra">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_obstacles/meshes/rock_loop_extra.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

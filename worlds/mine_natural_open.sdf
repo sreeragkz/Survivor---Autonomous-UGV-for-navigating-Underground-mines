@@ -1,0 +1,85 @@
+<sdf version="1.6">
+  <world name="natural_mine">
+    <gravity>0 0 -9.81</gravity>
+    <physics name="default" type="ode">
+      <max_step_size>.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+    <scene>
+      <ambient>.38 .38 .37 1</ambient>
+      <background>.09 .11 .13 1</background>
+      <shadows>false</shadows>
+    </scene>
+    <light name="soft_fill" type="directional">
+      <direction>-.3 .5 -1</direction>
+      <diffuse>.50 .49 .46 1</diffuse>
+      <cast_shadows>false</cast_shadows>
+    </light>
+    <light name="worklight0" type="point">
+      <pose>0 -.9 2.15 0 0 0</pose>
+      <diffuse>1 .80 .55 1</diffuse>
+      <cast_shadows>false</cast_shadows>
+      <attenuation>
+        <range>5</range>
+        <constant>.55</constant>
+        <linear>.22</linear>
+        <quadratic>.07</quadratic>
+      </attenuation>
+    </light>
+    <light name="worklight1" type="point">
+      <pose>3.2 -.9 2.15 0 0 0</pose>
+      <diffuse>1 .80 .55 1</diffuse>
+      <cast_shadows>false</cast_shadows>
+      <attenuation>
+        <range>5</range>
+        <constant>.55</constant>
+        <linear>.22</linear>
+        <quadratic>.07</quadratic>
+      </attenuation>
+    </light>
+    <light name="worklight2" type="point">
+      <pose>8.6 -.9 2.15 0 0 0</pose>
+      <diffuse>1 .80 .55 1</diffuse>
+      <cast_shadows>false</cast_shadows>
+      <attenuation>
+        <range>5</range>
+        <constant>.55</constant>
+        <linear>.22</linear>
+        <quadratic>.07</quadratic>
+      </attenuation>
+    </light>
+    <light name="worklight3" type="point">
+      <pose>11 -.9 2.15 0 0 0</pose>
+      <diffuse>1 .80 .55 1</diffuse>
+      <cast_shadows>false</cast_shadows>
+      <attenuation>
+        <range>5</range>
+        <constant>.55</constant>
+        <linear>.22</linear>
+        <quadratic>.07</quadratic>
+      </attenuation>
+    </light>
+    <light name="worklight4" type="point">
+      <pose>16 -.9 2.15 0 0 0</pose>
+      <diffuse>1 .80 .55 1</diffuse>
+      <cast_shadows>false</cast_shadows>
+      <attenuation>
+        <range>5</range>
+        <constant>.55</constant>
+        <linear>.22</linear>
+        <quadratic>.07</quadratic>
+      </attenuation>
+    </light>
+    <include>
+      <uri>model://natural_mine_lower</uri>
+    </include>
+    <include>
+      <uri>model://natural_mine_obstacles</uri>
+    </include>
+    <gui>
+      <camera name="overview">
+        <pose>-7 -14 17 0 .65 .8</pose>
+      </camera>
+    </gui>
+  </world>
+</sdf>

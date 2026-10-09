@@ -1,0 +1,21 @@
+<sdf version="1.6">
+  <model name="natural_mine_roof">
+    <static>true</static>
+    <link name="body">
+      <visual name="arched_ceiling">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_roof/meshes/arched_ceiling.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="arched_ceiling">
+        <geometry>
+          <mesh>
+            <uri>model://natural_mine_roof/meshes/arched_ceiling.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
