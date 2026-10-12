@@ -367,4 +367,4 @@ The current prototype does not implement GPS-based underground localization, the
 
 Developed by Sreerag as a laboratory prototype. Personal work included defining requirements, assembling the ROS workspace, integrating robot and environment assets, configuring sensors and navigation, running experiments, debugging build and launch issues, and demonstrating the mapping and exploration workflow.
 
-ChatGPT assisted with generating robot/world assets and scripts, suggesting configuration changes, explaining ROS concepts, and troubleshooting. SLAM, localization, navigation, and frontier exploration use existing open-source packages; their underlying algorithms were not implemented from scratch for this project.
+SLAM, localization, navigation, and frontier exploration use existing open-source packages; their underlying algorithms were not implemented from scratch for this project.
